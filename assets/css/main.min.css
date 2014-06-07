@@ -47,14 +47,19 @@
 }
 
 .highlight {
-	border-radius: 15px;
+	border-radius: 10px;
 	box-shadow: 
 		0 0 0 1px rgba(187,187,187,0.1),
 		0 4px 12px rgba(0,0,0,0.1);
+	background-color: #000000;
+}
+
+.highlight pre {
+	width: 850px;
 }
 
 .highlight:hover {
-	background-color: #333339;
+	background-color: #111111;
 }
 
 .author-photo {
@@ -121,9 +126,28 @@
 	#post .entry-content, #page .entry-content {
 		max-width: 960px;
 		margin: 50px auto 30px auto;
+		padding: 40px 40px;
+	}
+
+	#post #disqus_thread, #page #disqus_thread {
+		max-width: 960px;
+	}
+
+	.read-more {
+		max-width: 960px;
 	}
 }
 
 a:hover {
 	color: #6666AA;
+}
+
+.CodeRay .code pre {
+	border-radius: 10px;
+	width: 850px;
+	background-color: #000000;
+}
+
+.CodeRay .code pre:hover {
+	background-color: #111111;
 }
