@@ -34,6 +34,8 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
+      <!-- reading-time -->
+      <div class="entry-reading-time text-align-right"><i class="fa fa-clock-o"></i><i class="entry-reading-time-content"></i></div><!-- /.entry-reading-time -->
       {{ content }}
       <footer class="entry-meta">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" class="tag">{{ tag }}</a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
@@ -59,8 +61,6 @@
         <div class="read-more-content">
           <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
           <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
-          <!-- reading_line dont working because gitpages dont support custom plugins
-            <span class="entry-reading-time"><i class="fa fa-clock-o"></i><i>{{ post.content | reading_time }}</i></span>--><!-- /.entry-reading-time -->
         </div><!-- /.read-more-content -->
       {% endfor %}
       <div class="read-more-list">
@@ -68,8 +68,6 @@
           <div class="list-item">
             <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
             <span>Published on {{ post.date | date: "%B %d, %Y" }}</span>
-            <!-- reading_line dont working because gitpages dont support custom plugins
-              <span class="entry-reading-time"><i class="fa fa-clock-o"></i><i>{{ post.content | reading_time }}</i></span>--><!-- /.entry-reading-time -->
           </div><!-- /.list-item -->
         {% endfor %}
       </div><!-- /.read-more-list -->

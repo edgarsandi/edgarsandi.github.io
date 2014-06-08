@@ -19,11 +19,8 @@ image:
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
-  <!-- reading_line dont working because gitpages dont support custom plugins
-  <div class="entry-reading-time text-align-right">
-    <i class="fa fa-clock-o"></i><i>{{ post.content | reading_time }}</i>
-  </div>--><!-- /.entry-reading-time -->
   <div class="entry-content">
+    <div class="entry-reading-time text-align-right"><i class="fa fa-clock-o"></i><i class="entry-reading-time-content"></i></div><!-- /.entry-reading-time -->
     {{ post.content }}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
