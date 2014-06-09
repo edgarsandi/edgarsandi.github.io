@@ -1835,3 +1835,12 @@ All this is done for any sub-level being entered.
 .dl-menuopen li {
   display: block;
 }
+
+.entry-reading-time > i{
+  color: #999999;
+  margin: 3px;
+}
+
+.text-align-right {
+  text-align: right;
+}
