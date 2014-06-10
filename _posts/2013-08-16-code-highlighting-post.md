@@ -41,7 +41,7 @@ Line numbering enabled:
 {% endraw %}
 {% endhighlight %}
 
-{% highlight ruby linenos=table hl_lines=2 linenostart=10 %}
+{% highlight ruby %}
 module Jekyll
   class TagIndex < Page
     def initialize(site, base, dir, tag)

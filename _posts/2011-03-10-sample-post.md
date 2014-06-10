@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Sample Post
-teste: abcdef
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2013-05-31
 tags: [sample post]
@@ -13,7 +12,7 @@ comments: true
 share: true
 ---
 
-Below is just @edgarsandi about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
 # Heading 1
 
@@ -36,7 +35,7 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(That’s a citation)</cite>. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
-HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
 ### Blockquotes
 
@@ -60,40 +59,27 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 ## Tables
 
-| Header1         | Header2 | Header3 |
-|:----------------|:-------:|--------:|
-| cell1           | cell2   | cell3   |
-| cell4           | cell5   | cell6   |
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
 |----
-| cell1           | cell2   | cell3   |
-| cell4           | cell5   | cell6   |
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
 |=====
-| Foot1           | Foot2   | Foot3
+| Foot1   | Foot2   | Foot3
 {: rules="groups"}
-{: class="minhatabela"}
 
 ## Code Snippets
 
 Syntax highlighting via Pygments
 
-{% highlight css linenos=table hl_lines=3 %}
+{% highlight css %}
 #container {
   float: left;
   margin: 0 -240px 0 0;
   width: 100%;
-  padding: 0;
-  font-family: 'Lato',Calibri,Arial,sans-serif;
-  color: #222;
 }
-{% endhighlight %}
-
-{% highlight php linenos=table hl_lines=2 linenostart=10 %}
-<?php
-    $name = $_POST['name'];
-    if (isset($name)) {
-        echo 'Olá ', $name;
-    }
-?>
 {% endhighlight %}
 
 Non Pygments code example
