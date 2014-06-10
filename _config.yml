@@ -27,6 +27,14 @@ owner:
 # Background image to be tiled on all pages
 background: ps_neutral.png
 
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
+
+emoji:
+  src: "/images"
+
 # Analytics and webmaster tools stuff goes here
 google_analytics: 'UA-2122720-11'
 google_verify:      
@@ -66,7 +74,7 @@ kramdown:
     coderay_line_number_start: 15
     coderay_tab_width: 4
     coderay_bold_every: 10
-    coderay_css: class
+    coderay_css: style
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
