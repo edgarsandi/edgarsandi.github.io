@@ -148,3 +148,12 @@ table.CodeRay td {
 .coderayclass {
 	overflow-x: auto;
 }
+
+.entry-meta .tag {
+  border: 2px solid #bbb;
+}
+
+.entry-meta .tag:hover {
+  color: #bbb;
+  background-color: #FFFFFF;
+}
