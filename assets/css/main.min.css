@@ -31,10 +31,6 @@
 	background-color: #000000;
 }
 
-.highlight pre {
-	width: 850px;
-}
-
 .highlight:hover {
 	background-color: #111111;
 }
@@ -89,7 +85,7 @@
 }
 
 @media only screen 
-	and (min-width: 62.5em) {
+	and (min-width: 801px) {
 	#post-index #main {
 		margin-top: 30px;
 		max-width: 960px;
@@ -113,6 +109,14 @@
 	.read-more {
 		max-width: 960px;
 	}
+
+	.CodeRay .code pre {
+		width: 850px;
+	}
+
+	.highlight pre {
+		width: 850px;
+	}
 }
 
 a:hover {
@@ -121,12 +125,15 @@ a:hover {
 
 .CodeRay .code pre {
 	border-radius: 10px;
-	width: 850px;
 	background-color: #000000;
 }
 
 .CodeRay .code pre:hover {
 	background-color: #111111;
+}
+
+table.CodeRay td {
+	padding: 10px 0px 0px 0px;
 }
 
 .entry-reading-time > i{
@@ -136,4 +143,8 @@ a:hover {
 
 .text-align-right {
 	text-align: right;
+}
+
+.coderayclass {
+	overflow-x: auto;
 }
