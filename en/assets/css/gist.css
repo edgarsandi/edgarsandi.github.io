@@ -1,0 +1,347 @@
+.gist {
+    color: #000;
+}
+.gist .render-container .render-viewer-error, .gist .render-container .render-viewer-fatal, .gist .render-container .octospinner {
+    display: none;
+}
+.gist .gist-render iframe {
+    width: 100%;
+}
+.gist pre {
+    font: inherit;
+    line-height: inherit;
+    white-space: pre;
+}
+.gist .gist-file {
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    margin-bottom: 1em;
+}
+.gist .gist-file.gist-render {
+    border: none;
+}
+.gist .gist-file .gist-meta {
+    font: 12px"Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    color: #999;
+    padding: 10px;
+    background-color: #e8e8e8;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#e8e8e8));
+    background-image: -webkit-linear-gradient(#fafafa, #e8e8e8);
+    background-image: linear-gradient(#fafafa, #e8e8e8);
+    background-repeat: repeat-x;
+}
+.gist .gist-file .gist-meta a {
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+}
+.gist .gist-file .gist-data {
+    overflow: auto;
+    word-wrap: normal;
+    background-color: #f8f8ff;
+    border-bottom: 1px solid #ddd;
+    font-size: 100%;
+}
+.gist .gist-file.scroll .gist-data {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 30px;
+    left: 0px;
+    overflow: scroll;
+}
+.gist .gist-file.scroll .gist-meta {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.gist .gist-file .gist-data .line-data {
+    padding: .5em !important;
+}
+.gist .gist-file .gist-data .line-pre {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    background: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.gist .gist-file .gist-data .gist-highlight {
+    background: transparent !important;
+}
+.gist .gist-file .gist-data .line-numbers {
+    background-color: #ececec;
+    color: #aaa;
+    border-right: 1px solid #ddd;
+    text-align: right;
+    padding: .5em;
+}
+.gist .gist-file .gist-data .line-numbers .line-number {
+    clear: right;
+    display: block;
+}
+
+.gist-syntax {
+  margin-bottom: 1.5em !important;
+  font-size: 12px !important;
+  font-size: 0.75rem !important;
+  line-height: 2.1667 !important;
+  color: #d0d0d0 !important;
+  background-color: #272822 !important;
+  border: 1px solid #dbdbdb !important;
+  -webkit-border-radius: 3px !important;
+     -moz-border-radius: 3px !important;
+          border-radius: 3px !important;
+}
+
+.gist-syntax pre {
+  position: relative !important;
+  padding: 1em !important;
+  margin: 0 !important;
+}
+
+.gist-syntax .lineno {
+  padding-right: 24px !important;
+  color: #8f908a !important;
+}
+
+.gist-syntax .hll {
+  background-color: #49483e !important;
+}
+
+.gist-syntax .c {
+  color: #75715e !important;
+}
+
+.gist-syntax .err {
+  color: #960050 !important;
+  background-color: #1e0010 !important;
+}
+
+.gist-syntax .k {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .l {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .n {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .o {
+  color: #f92672 !important;
+}
+
+.gist-syntax .p {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .cm {
+  color: #75715e !important;
+}
+
+.gist-syntax .cp {
+  color: #75715e !important;
+}
+
+.gist-syntax .c1 {
+  color: #75715e !important;
+}
+
+.gist-syntax .cs {
+  color: #75715e !important;
+}
+
+.gist-syntax .ge {
+  font-style: italic !important;
+}
+
+.gist-syntax .gs {
+  font-weight: bold !important;
+}
+
+.gist-syntax .kc {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .kd {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .kn {
+  color: #f92672 !important;
+}
+
+.gist-syntax .kp {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .kr {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .kt {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .ld {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .m {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .s {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .na {
+  color: #a6e22e !important;
+}
+
+.gist-syntax .nb {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .nc {
+  color: #a6e22e !important;
+}
+
+.gist-syntax .no {
+  color: #66d9ef !important;
+}
+
+.gist-syntax .nd {
+  color: #a6e22e !important;
+}
+
+.gist-syntax .ni {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .ne {
+  color: #a6e22e !important;
+}
+
+.gist-syntax .nf {
+  color: #a6e22e !important;
+}
+
+.gist-syntax .nl {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .nn {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .nx {
+  color: #a6e22e !important;
+}
+
+.gist-syntax .py {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .nt {
+  color: #f92672 !important;
+}
+
+.gist-syntax .nv {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .ow {
+  color: #f92672 !important;
+}
+
+.gist-syntax .w {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .mf {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .mh {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .mi {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .mo {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .sb {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .sc {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .sd {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .s2 {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .se {
+  color: #ae81ff !important;
+}
+
+.gist-syntax .sh {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .si {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .sx {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .sr {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .s1 {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .ss {
+  color: #e6db74 !important;
+}
+
+.gist-syntax .bp {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .vc {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .vg {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .vi {
+  color: #f8f8f2 !important;
+}
+
+.gist-syntax .il {
+  color: #ae81ff !important;
+}
