@@ -40,6 +40,8 @@ deploy:
 	@echo "Updating files...                  ${CHECK} Done"
 	git add --all . && git commit -m "Regenerate files (jekyll deployment)"
 	@echo "Committing files...                ${CHECK} Done"
+	git push origin master
+	@echo "Pushing commits...                ${CHECK} Done"
 	git checkout develop && git clean -f -d
 	@echo "Switch back to develop...          ${CHECK} Done"
 	jekyll build
