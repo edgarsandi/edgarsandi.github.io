@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Edgar Sandi</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://192.168.0.115:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://192.168.0.115:4000" />
-<updated>2014-06-14T14:38:32-03:00</updated>
-<id>http://192.168.0.115:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://edgarsandi.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://edgarsandi.github.io" />
+<updated>2014-06-14T14:43:35-03:00</updated>
+<id>http://edgarsandi.github.io/</id>
 <author>
   <name>Edgar Sandi</name>
-  <uri>http://192.168.0.115:4000/</uri>
+  <uri>http://edgarsandi.github.io/</uri>
   <email>edgar.r.sandi@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Exemplo de post - EN]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/en/exemplo-post/" />
-  <id>http://192.168.0.115:4000/_i18n/en/exemplo-post</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/en/exemplo-post/" />
+  <id>http://edgarsandi.github.io/_i18n/en/exemplo-post</id>
   <published>2014-06-04T00:00:00-03:00</published>
   <updated>2014-06-04T00:00:00-03:00</updated>
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Here be a sample post with a custom background image. To utilize this “feature” just add the following YAML to a post’s front matter.&lt;/p&gt;
@@ -37,19 +37,19 @@
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/en/exemplo-post/&quot;&gt;Exemplo de post - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on June 04, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/en/exemplo-post/&quot;&gt;Exemplo de post - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on June 04, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with a Background Image - EN]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/en/background-image/" />
-  <id>http://192.168.0.115:4000/_i18n/en/background-image</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/en/background-image/" />
+  <id>http://edgarsandi.github.io/_i18n/en/background-image</id>
   <published>2013-10-26T00:00:00-02:00</published>
   <updated>2013-10-26T00:00:00-02:00</updated>
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Here be a sample post with a custom background image. To utilize this “feature” just add the following YAML to a post’s front matter.&lt;/p&gt;
@@ -63,20 +63,20 @@
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/en/background-image/&quot;&gt;Post with a Background Image - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on October 26, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/en/background-image/&quot;&gt;Post with a Background Image - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on October 26, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Syntax Highlighting Post - EN]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/en/code-highlighting-post/" />
-  <id>http://192.168.0.115:4000/_i18n/en/code-highlighting-post</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/en/code-highlighting-post/" />
+  <id>http://edgarsandi.github.io/_i18n/en/code-highlighting-post</id>
   <updated>2013-08-20T00:00:00-00:00</updated>
   <published>2013-08-16T00:00:00-03:00</published>
   
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;Syntax highlighting&lt;/a&gt; is a feature that displays source code, in different colors and fonts according to the category of terms. &lt;a href=&quot;https://github.com/EdgarSandi&quot; class=&quot;user-mention&quot;&gt;@EdgarSandi&lt;/a&gt; &lt;img class=&quot;emoji&quot; title=&quot;:+1:&quot; alt=&quot;:+1:&quot; src=&quot;/images/emoji/%2B1.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; ! This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;/p&gt;
@@ -214,24 +214,24 @@
 &lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/en/code-highlighting-post/&quot;&gt;Syntax Highlighting Post - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on August 16, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/en/code-highlighting-post/&quot;&gt;Syntax Highlighting Post - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on August 16, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Link Post - EN]]></title>
  <link rel="alternate" type="text/html" href="http://mademistakes.com" />
-  <id>http://192.168.0.115:4000/_i18n/en/sample-link-post</id>
+  <id>http://edgarsandi.github.io/_i18n/en/sample-link-post</id>
   <published>2013-08-12T00:00:00-03:00</published>
   <updated>2013-08-12T00:00:00-03:00</updated>
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/en/sample-link-post/&quot;&gt;Sample Link Post - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on August 12, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/en/sample-link-post/&quot;&gt;Sample Link Post - EN&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on August 12, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>

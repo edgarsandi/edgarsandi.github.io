@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Edgar Sandi</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://192.168.0.115:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://192.168.0.115:4000" />
-<updated>2014-06-14T14:38:31-03:00</updated>
-<id>http://192.168.0.115:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://edgarsandi.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://edgarsandi.github.io" />
+<updated>2014-06-14T14:43:35-03:00</updated>
+<id>http://edgarsandi.github.io/</id>
 <author>
   <name>Edgar Sandi</name>
-  <uri>http://192.168.0.115:4000/</uri>
+  <uri>http://edgarsandi.github.io/</uri>
   <email>edgar.r.sandi@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Post with Large Feature Image and Text - BR]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/br/readability-feature-post/" />
-  <id>http://192.168.0.115:4000/_i18n/br/readability-feature-post</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/br/readability-feature-post/" />
+  <id>http://edgarsandi.github.io/_i18n/br/readability-feature-post</id>
   <updated>2013-06-30T00:00:00-00:00</updated>
   <published>2013-05-23T00:00:00-03:00</published>
   
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -66,19 +66,19 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/br/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/br/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Post with Images - BR]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/br/sample-post-images/" />
-  <id>http://192.168.0.115:4000/_i18n/br/sample-post-images</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/br/sample-post-images/" />
+  <id>http://edgarsandi.github.io/_i18n/br/sample-post-images</id>
   <published>2013-05-22T00:00:00-03:00</published>
   <updated>2013-05-22T00:00:00-03:00</updated>
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
@@ -135,19 +135,19 @@
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/br/sample-post-images/&quot;&gt;A Post with Images - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/br/sample-post-images/&quot;&gt;A Post with Images - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text - BR]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/br/readability-post/" />
-  <id>http://192.168.0.115:4000/_i18n/br/readability-post</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/br/readability-post/" />
+  <id>http://edgarsandi.github.io/_i18n/br/readability-post</id>
   <published>2012-05-22T00:00:00-03:00</published>
   <updated>2012-05-22T00:00:00-03:00</updated>
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -191,20 +191,20 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/br/readability-post/&quot;&gt;Testing Readability with a Bunch of Text - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/br/readability-post/&quot;&gt;Testing Readability with a Bunch of Text - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Post - BR]]></title>
- <link rel="alternate" type="text/html" href="http://192.168.0.115:4000/_i18n/br/sample-post/" />
-  <id>http://192.168.0.115:4000/_i18n/br/sample-post</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/br/sample-post/" />
+  <id>http://edgarsandi.github.io/_i18n/br/sample-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
   <published>2011-03-10T00:00:00-03:00</published>
   
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://192.168.0.115:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
@@ -225,7 +225,7 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://192.168.0.115:4000/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://edgarsandi.github.io/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
@@ -332,7 +332,7 @@
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://192.168.0.115:4000/_i18n/br/sample-post/&quot;&gt;Sample Post - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://192.168.0.115:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/br/sample-post/&quot;&gt;Sample Post - BR&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>
