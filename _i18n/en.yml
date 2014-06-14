@@ -1,0 +1,11 @@
+global:
+  owner:
+    bio: 'Enthusiastic about Technology, Software Development, Electronics and Robotics'
+  allposts: All Posts
+  back: Back
+  about: About
+  alltags: All Tags
+  learnmore: "Learn More"
+pages:
+  home: Home
+  work: Work

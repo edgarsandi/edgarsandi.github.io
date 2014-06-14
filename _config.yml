@@ -1,16 +1,17 @@
 title:            Edgar Sandi
 description:      Posts
 disqus_shortname: edgarsandi
+languages: ["br", "en"]
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              "http://edgarsandi.github.io"
+url:              "http://192.168.0.115:4000"
 
 # Owner/author information
 owner:
   name:           Edgar Sandi
   avatar:         edgarsandi.png
-  bio:            "Enthusiastic about Technology, Software Development, Electronics and Robotics"
+#  bio:            "Enthusiastic about Technology, Software Development, Electronics and Robotics"
   email:          edgar.r.sandi@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        edgarsandi
@@ -60,7 +61,7 @@ markdown:    kramdown
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 3
+paginate: 1
 
 kramdown:
   auto_ids: true

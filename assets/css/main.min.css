@@ -157,3 +157,28 @@ table.CodeRay td {
   color: #bbb;
   background-color: #FFFFFF;
 }
+
+.dl-flags {
+	position: fixed;
+	top: 25px;
+	right: 25px;
+	z-index: 1000;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	-webkit-perspective-origin: 50% 200%;
+	-moz-perspective-origin: 50% 200%;
+	perspective-origin: 50% 200%;
+	-webkit-box-shadow: 5px 5px 12px #666;
+	   -moz-box-shadow: 5px 5px 12px #666;
+			box-shadow: 5px 5px 12px #666;
+}
+
+.flags-menu {
+	font-size: 42px;
+	opacity: 0.8;
+}
+
+.flag-icon {
+	border-radius: 5px;
+}
