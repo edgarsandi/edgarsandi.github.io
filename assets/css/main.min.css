@@ -78,7 +78,9 @@
 
 /* Smartphones (porta retrato)  */
 @media only screen
-    and (max-device-width : 480px)
+    and (min-device-width : 320px)
+    and (min-device-height : 480px)
+    and (max-device-width : 600px)
     and (max-device-height : 800px) {
 
     /* Estilização */
