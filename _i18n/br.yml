@@ -1,11 +1,25 @@
 global:
+  site:
+    lang_url: '/'
+    date_format: '%d/%m/%Y'
   owner:
     bio: "Entusiasta por Tecnologia, Desenvolvimento de Software, Eletrônica e Robótica"
-  allposts: "Todos os Posts"
   back: Voltar
   about: Sobre
-  alltags: "Todas as Tags"
-  learnmore: "Leia mais"
+  allposts: Todos os Posts
+  alltags: Todas as Tags
+  learnmore: Leia mais
+  comment: Comente
+  readtime_label: Tempo de leitura
+  readtime_minute: minuto
+  readtime_minutes: minutos
+  previous: Anterior
+  next: Próximo
+  was_modified_on: foi modificado pela última vez em
+  was_published_on: foi publicado em
+  published_on: Publicado em
+  read_more: Leia mais
+  continue_reading: Continue lendo
 pages:
   home: Home
   work: Work

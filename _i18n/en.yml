@@ -1,11 +1,25 @@
 global:
+  site:
+    lang_url: 'en' 
+    date_format: '%B %d, %Y'
   owner:
     bio: 'Enthusiastic about Technology, Software Development, Electronics and Robotics'
-  allposts: All Posts
   back: Back
   about: About
+  allposts: All Posts
   alltags: All Tags
-  learnmore: "Learn More"
+  learnmore: Learn More
+  comment: Comment
+  readtime_label: Reading time
+  readtime_minute: minute
+  readtime_minutes: minutes
+  previous: Previous
+  next: Next
+  was_modified_on: was last modified on
+  was_published_on: was published on
+  published_on: Published on
+  read_more: Read More
+  continue_reading: Continue reading
 pages:
   home: Home
   work: Work
