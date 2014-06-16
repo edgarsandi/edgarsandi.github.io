@@ -2,6 +2,7 @@ global:
   site:
     lang_url: 'en' 
     date_format: '%B %d, %Y'
+    short_date_format: '%B, %Y'
   owner:
     bio: 'Enthusiastic about Technology, Software Development, Electronics and Robotics'
   back: Back
