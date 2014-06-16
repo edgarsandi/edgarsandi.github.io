@@ -1,16 +1,19 @@
 ---
 layout: post-index
 permalink: /posts/
-title: All Posts
+title: Posts
 description: "An archive of posts."
 ---
+{% capture lang_url %}{% translate global.site.lang_url %}{% endcapture %}
+{% capture short_date_format %}{% translate global.site.short_date_format %}{% endcapture %}
 
+<div style='-webkit-columns: 2;-moz-columns: 2;columns: 2;'>
 {% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y-%m" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y-%m" }}{% endcapture %}
+    {% capture this_year %}{{ post.date | date: short_date_format }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: short_date_format }}{% endcapture %}
 
     {% if forloop.first %}
-    <article>
+    <article style="-webkit-column-break-inside: avoid;break-inside: avoid-column;">
       <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
       <ul>
     {% endif %}
@@ -24,7 +27,7 @@ description: "An archive of posts."
         {% if this_year != next_year %}
           </ul>
         </article>
-        <article>
+        <article style="-webkit-column-break-inside: avoid;break-inside: avoid-column;">
           <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
           <ul>
         {% endif %}

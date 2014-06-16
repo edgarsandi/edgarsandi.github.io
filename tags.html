@@ -1,9 +1,10 @@
 ---
 layout: post-index
 permalink: /tags/
-title: Tag Archive
+title: Tags
 description: "An archive of posts sorted by tag."
 ---
+{% capture lang_url %}{% translate global.site.lang_url %}{% endcapture %}
 
 <ul class="entry-meta inline-list">
 {% assign tags_list = site.tags %}  
@@ -13,26 +14,29 @@ description: "An archive of posts sorted by tag."
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
+    	<!--  style='font-size: {{tag[1].size | times: 5.0 }}px' -->
     	<li><a href="#{{ tag[0] }}" class="tag">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
 </ul>
 
-{% for tag in site.tags %} 
-	<article>
-	<h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
-		<ul>
-		{% assign pages_list = tag[1] %}  
-		{% for post in pages_list %}
-			{% if post.title != null %}
-			{% if group == null or group == post.group %}
-				<li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-			{% endif %}
-			{% endif %}
-		{% endfor %}
-		{% assign pages_list = nil %}
-		{% assign group = nil %}
-		</ul>
-	</article><!-- /.hentry -->
-{% endfor %}
+<div style='-webkit-columns: 2;-moz-columns: 2;columns: 2;'>
+	{% for tag in site.tags %} 
+		<article style="-webkit-column-break-inside: avoid;break-inside: avoid-column;">
+		<h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+			<ul>
+			{% assign pages_list = tag[1] %}  
+			{% for post in pages_list %}
+				{% if post.title != null %}
+				{% if group == null or group == post.group %}
+					<li class="entry-title"><a href="{{ site.url }}{{ site.baseurl_root }}/{{ lang_url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% assign pages_list = nil %}
+			{% assign group = nil %}
+			</ul>
+		</article><!-- /.hentry -->
+	{% endfor %}
+</div>
