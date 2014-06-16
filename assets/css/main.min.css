@@ -62,11 +62,24 @@
 }
 
 .entry-image {
-	min-height: 300px;
+	min-height: 200px;
+}
+
+.entry-content {
+	text-align: justify;
 }
 
 .feature .header-title {
-	height: 300px;
+	height: 200px;
+}
+
+.entry-title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.entry-meta {
+	margin-top: 10px;
 }
 
 .dl-flags {
@@ -74,6 +87,10 @@
 	top: 25px;
 	right: 25px;
 	z-index: 500;
+}
+
+.flag-icon {
+	border-radius: 8px;
 }
 
 /* Smartphones (porta retrato)  */
@@ -92,10 +109,6 @@
 		height: 200px;
 	}
 
-	.flag-icon {
-		border-radius: 0px;
-	}
-
 	.dl-flags {
 		position: absolute;
 		top: -5px;
@@ -107,7 +120,7 @@
 @media only screen 
 	and (min-width: 801px) {
 	#post-index #main {
-		margin-top: 30px;
+		margin-top: 20px;
 		max-width: 960px;
 	}
 
@@ -119,7 +132,7 @@
 	#post .entry-content, #page .entry-content {
 		max-width: 960px;
 		margin: 50px auto 30px auto;
-		padding: 40px 40px;
+		padding: 30px 30px;
 	}
 
 	#post #disqus_thread, #page #disqus_thread {
@@ -179,6 +192,5 @@ table.CodeRay td {
 }
 
 .flags-menu {
-	font-size: 46px;
-	opacity: 0.6;
+	font-size: 36px;
 }
