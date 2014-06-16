@@ -50,8 +50,8 @@
 		<li>
 			<a href="#">Posts</a>
 			<ul class="dl-submenu">
-				<li><a href="{{ site.url }}/posts/">{% translate global.allposts %}</a></li>
-				<li><a href="{{ site.url }}/tags/">{% translate global.alltags %}</a></li>
+				<li><a href="{{ site.url }}{{ site.baseurl_root }}/{{ lang_url }}/posts/">{% translate global.allposts %}</a></li>
+				<li><a href="{{ site.url }}{{ site.baseurl_root }}/{{ lang_url }}/tags/">{% translate global.alltags %}</a></li>
 			</ul>
 		</li>
 		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
