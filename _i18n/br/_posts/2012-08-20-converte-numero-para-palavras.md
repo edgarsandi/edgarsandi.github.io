@@ -13,7 +13,7 @@ comments: true
 share: true
 ---
 ## NumberFormatter
-Hoje vamos falar sobre o NumberFormatter uma classe que faz parte do Intl (Funções de Internacionalização) desde a versão 5.0 do PHP.
+Hoje vamos falar sobre a NumberFormatter uma classe que faz parte do Intl (Funções de Internacionalização) desde a versão 5.0 do PHP.
 
 Podemos usá-la para formatar números, moedas e percentuais de acordo com a localidade (L10n).
 
