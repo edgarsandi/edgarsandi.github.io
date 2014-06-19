@@ -5,31 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="br"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Edgar Sandi</title>
-<meta name="description" content="Describe this nonsense.">
-<meta name="keywords" content="Jekyll, theme, themes, responsive, blog, modern">
+<title>PHP - Converter números para palavras &#8211; Edgar Sandi</title>
+<meta name="description" content="Como converter números para palavras com o PHP usando NumberFormatter">
+<meta name="keywords" content="php, converter número, formatar, conversão">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://edgarsandi.github.io/images/abstract-1.jpg">
+<meta name="twitter:image" content="http://edgarsandi.github.io/images/abstract-6.jpg">
 
-<meta name="twitter:title" content="Edgar Sandi">
-<meta name="twitter:description" content="Describe this nonsense.">
+<meta name="twitter:title" content="PHP - Converter números para palavras">
+<meta name="twitter:description" content="Como converter números para palavras com o PHP usando NumberFormatter">
 <meta name="twitter:creator" content="@edgarsandi">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Edgar Sandi">
-<meta property="og:description" content="Describe this nonsense.">
-<meta property="og:url" content="http://edgarsandi.github.io/index.html">
+<meta property="og:title" content="PHP - Converter números para palavras">
+<meta property="og:description" content="Como converter números para palavras com o PHP usando NumberFormatter">
+<meta property="og:url" content="http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/">
 <meta property="og:site_name" content="Edgar Sandi">
 
 
 
 
 
-<link rel="canonical" href="http://edgarsandi.github.io/">
+<link rel="canonical" href="http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/">
 <link href="http://edgarsandi.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Edgar Sandi Feed">
 <link rel="author" href="https://plus.google.com/102946997383264307236?rel=author">
 
@@ -75,7 +75,7 @@
 
 </head>
 
-<body id="post-index" class="feature">
+<body id="post" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
@@ -141,44 +141,39 @@
 </nav><!-- /.dl-menuwrapper -->
 
 
+
+
+
+
 <div class="entry-header">
   
-  
-    <div class="entry-image">
-      <img src="http://edgarsandi.github.io/images/abstract-1.jpg" alt="">
-    </div><!-- /.entry-image -->
-  
-  <div class="header-title">
-    <div class="header-title-wrap">
-      <h1>Edgar Sandi</h1>
-      <h2></h2>
-    </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
+  <div class="entry-image">
+    <img src="http://edgarsandi.github.io/images/abstract-6.jpg" alt="PHP - Converter números para palavras">
+  </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
+
 <div id="main" role="main">
-  
-
-
-
-<article class="hentry">
-  <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2012-08-20T00:00:00-03:00"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/">20/08/2012</a></time></span><span class="author vcard"><span class="fn"><a href="http://edgarsandi.github.io/about/" title="About Edgar Sandi">Edgar Sandi</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/#disqus_thread">Comente</a></span></div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" rel="bookmark" title="PHP - Converter números para palavras" itemprop="url">PHP - Converter números para palavras</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    
-      <div class="entry-reading-time text-align-right">
-        <i class="fa fa-clock-o"></i>
-        <i class="entry-reading-time-content">
-          
-          Tempo de leitura ~1 minuto
-        </i>
-      </div><!-- /.entry-reading-time -->
-    
-    <h2 id="numberformatter">NumberFormatter</h2>
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" rel="bookmark" title="PHP - Converter números para palavras">PHP - Converter números para palavras</a></h1>
+        
+        <!-- <h2>20/08/2012</h2> -->
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      
+        <div class="entry-reading-time text-align-right">
+          <i class="fa fa-clock-o"></i>
+          <i class="entry-reading-time-content">
+            
+            Tempo de leitura ~1 minuto
+          </i>
+        </div><!-- /.entry-reading-time -->
+      
+      <h2 id="numberformatter">NumberFormatter</h2>
 <p>Hoje vamos falar sobre o NumberFormatter uma classe que faz parte do Intl (Funções de Internacionalização) desde a versão 5.0 do PHP.</p>
 
 <p>Podemos usá-la para formatar números, moedas e percentuais de acordo com a localidade (L10n).</p>
@@ -204,29 +199,30 @@
 <span class="lineno">8</span> 	<span class="c1">// A saída será: doze mil e trezentos e quarenta e cinco</span>
 <span class="lineno">9</span> <span class="cp">?&gt;</span><span class="x"></span></code></pre></div>
 
-  </div><!-- /.entry-content -->
-  <footer>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2012-08-20T00:00:00-03:00"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/">20/08/2012</a></time></span><span class="author vcard"><span class="fn"><a href="http://edgarsandi.github.io/about/" title="About Edgar Sandi">Edgar Sandi</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/#disqus_thread">Comente</a></span></div><!-- /.entry-meta -->
-  </footer>
-</article><!-- /.hentry -->
-
-
-<div class="pagination">
-  
-    Anterior
-  
-  <ul class="inline-list">
-    <li>
-      
-        <span class="current-page">1</span>
-      
-    </li>
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://edgarsandi.github.io/tags/#php" title="Pages tagged php" class="tag">php</a><a href="http://edgarsandi.github.io/tags/#converter número" title="Pages tagged converter número" class="tag">converter número</a><a href="http://edgarsandi.github.io/tags/#formatar" title="Pages tagged formatar" class="tag">formatar</a><a href="http://edgarsandi.github.io/tags/#conversão" title="Pages tagged conversão" class="tag">conversão</a></span>
+        <span><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" rel="bookmark" title="PHP - Converter números para palavras">PHP - Converter números para palavras</a> foi publicado em <span class="entry-date date published updated"><time datetime="2012-08-20T00:00:00-03:00">20/08/2012</time></span></span>
+        (revised: <span class="entry-date date modified"><time datetime="2012-08-21">21/08/2012</time></span>)
+        <span class="author vcard"><span class="fn"><a href="http://edgarsandi.github.io/about/" title="About Edgar Sandi">Edgar Sandi</a></span></span>
+        <div class="social-share">
+          <ul class="socialcount socialcount-small inline-list">
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+          </ul>
+        </div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
     
-  </ul>
-  
-    Next
-  
-</div><!-- /.pagination -->
+    <div class="read-more">
+      
+      <div class="read-more-list">
+        
+      </div><!-- /.read-more-list -->
+      
+    </div><!-- /.read-more -->
+  </article>
 </div><!-- /#main -->
 
 <div class="footer-wrapper">
@@ -251,7 +247,27 @@
   ga('send', 'pageview');
 </script>
 
-          
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'edgarsandi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
 
 </body>
 </html>
