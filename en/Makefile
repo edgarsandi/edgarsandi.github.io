@@ -32,6 +32,7 @@ deploy:
 	@echo "\n${HR}"
 	@echo "Deploying website..."
 	@echo "${HR}\n"
+	@sed -i '/^url/s/10.1.10.100:4000/edgarsandi.github.io/g' _config.yml
 	@jekyll build
 	@echo "Generating files...                ${CHECK} Done"
 	@git checkout master
@@ -44,6 +45,7 @@ deploy:
 	@echo "Pushing commits...                ${CHECK} Done"
 	@git checkout develop && git clean -f -d
 	@echo "Switch back to develop...          ${CHECK} Done"
+	@sed -i '/^url/s/edgarsandi.github.io/10.1.10.100:4000/g' _config.yml
 	@jekyll build
 	@echo "Re-generating files...             ${CHECK} Done"
 	@echo "You can run back jekyll server now to follow changes"

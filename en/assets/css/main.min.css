@@ -116,12 +116,12 @@
 		z-index: 1000;
 	}
 	.entry-meta a {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.entry-meta .vcard:before {
 		content: "  by  ";
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 
