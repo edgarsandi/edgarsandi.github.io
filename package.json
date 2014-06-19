@@ -1,13 +1,13 @@
 {
-  "name": "hpstr-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
+  "name": "EdgarSandi",
+  "author": "Edgar Sandi <edgar.r.sandi@gmail.com>",
+  "homepage": "http://edgarsandi.github.io/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
+    "url": "git://github.com/edgarsandi/edgarsandi.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
+    "url": "https://github.com/edgarsandi/edgarsandi.github.io/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
