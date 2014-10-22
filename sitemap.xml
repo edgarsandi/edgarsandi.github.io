@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://edgarsandi.github.io</loc>
+        <loc>http://10.1.10.101:4000</loc>
     </url>
 
     
     <url>
-        <loc>http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/</loc>
+        <loc>http://10.1.10.101:4000/_i18n/br/converte-numero-para-palavras/</loc>
     </url>
     
 </urlset>

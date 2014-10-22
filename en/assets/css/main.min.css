@@ -40,7 +40,7 @@
 }
 
 .dl-menuwrapper li a {
-	padding: 10px 20px;
+	padding: 5px 20px;
 	font-weight: 500;
 }
 	
@@ -54,7 +54,7 @@
 }
 
 .dl-menuwrapper li p {
-	padding: 10px 10px;
+	padding: 3px 5px;
 }
 
 .dl-menuwrapper .dl-menu {
@@ -201,4 +201,19 @@ table.CodeRay td {
 
 .flags-menu {
 	font-size: 36px;
+}
+
+.certifications {
+	height: 60px !important;
+	display: inline-flex !important;
+	padding: 0px !important;
+}
+
+
+.dl-menuwrapper li.dl-back:after {
+	top: -10px !important;
+}
+
+.dl-menuwrapper li.dl-back:after, .dl-menuwrapper li>a:not(:only-child):after {
+	top: -10px !important;
 }
