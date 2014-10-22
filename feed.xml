@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Edgar Sandi</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://10.1.10.101:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://10.1.10.101:4000" />
-<updated>2014-10-21T22:38:54-02:00</updated>
-<id>http://10.1.10.101:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://edgarsandi.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://edgarsandi.github.io" />
+<updated>2014-10-21T22:53:34-02:00</updated>
+<id>http://edgarsandi.github.io/</id>
 <author>
   <name>Edgar Sandi</name>
-  <uri>http://10.1.10.101:4000/</uri>
+  <uri>http://edgarsandi.github.io/</uri>
   <email>edgar.r.sandi@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[PHP - Converter números para palavras]]></title>
- <link rel="alternate" type="text/html" href="http://10.1.10.101:4000/_i18n/br/converte-numero-para-palavras/" />
-  <id>http://10.1.10.101:4000/_i18n/br/converte-numero-para-palavras</id>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/" />
+  <id>http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras</id>
   <updated>2012-08-21T00:00:00-00:00</updated>
   <published>2012-08-20T00:00:00-03:00</published>
   
   <author>
     <name>Edgar Sandi</name>
-    <uri>http://10.1.10.101:4000</uri>
+    <uri>http://edgarsandi.github.io</uri>
     <email>edgar.r.sandi@gmail.com</email>
   </author>
   <content type="html">&lt;h2 id=&quot;numberformatter&quot;&gt;NumberFormatter&lt;/h2&gt;
@@ -51,7 +51,7 @@
 &lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt; 	&lt;span class=&quot;c1&quot;&gt;// A saída será: doze mil e trezentos e quarenta e cinco&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://10.1.10.101:4000/_i18n/br/converte-numero-para-palavras/&quot;&gt;PHP - Converter números para palavras&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://10.1.10.101:4000&quot;&gt;Edgar Sandi&lt;/a&gt; on August 20, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/&quot;&gt;PHP - Converter números para palavras&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on August 20, 2012.&lt;/p&gt;</content>
 </entry>
 
 </feed>
