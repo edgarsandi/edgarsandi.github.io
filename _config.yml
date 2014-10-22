@@ -5,7 +5,7 @@ languages: ["br", "en"]
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              "http://edgarsandi.github.io"
+url:              "http://10.1.10.101:4000"
 
 # Owner/author information
 owner:
@@ -24,6 +24,7 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   google_plus:   https://plus.google.com/102946997383264307236?rel=author
+  zendid:        ZEND014245
 
 # Background image to be tiled on all pages
 background: ps_neutral.png
