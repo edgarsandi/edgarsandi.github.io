@@ -12,7 +12,7 @@ image:
 comments: true
 share: true
 ---
-![](https://www.zend.com/static-assets/img/zcedirectory/ZCPE-logo-XS.jpg)
+[![ZendID](https://www.zend.com/static-assets/img/zcedirectory/ZCPE-logo-XS.jpg)](https://www.zend.com/en/yellow-pages/ZEND014245)
 
 ## Zend Certified PHP Engineer - A nova certificação do PHP
 Recentemente fiz o que eu vou incorretamente chamar de atualização da ZCE
