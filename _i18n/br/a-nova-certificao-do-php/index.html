@@ -5,31 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="br"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>PHP - Converter números para palavras &#8211; Edgar Sandi</title>
-<meta name="description" content="Como converter números para palavras com o PHP usando NumberFormatter">
-<meta name="keywords" content="php, converter número, formatar, conversão">
+<title>Zend Certified PHP Engineer - A nova certificação do PHP &#8211; Edgar Sandi</title>
+<meta name="description" content="Zend Certified PHP Engineer - A nova certificação do PHP">
+<meta name="keywords" content="php, zce, zcpe, certificação">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://edgarsandi.github.io/images/abstract-6.jpg">
 
-<meta name="twitter:title" content="PHP - Converter números para palavras">
-<meta name="twitter:description" content="Como converter números para palavras com o PHP usando NumberFormatter">
+<meta name="twitter:title" content="Zend Certified PHP Engineer - A nova certificação do PHP">
+<meta name="twitter:description" content="Zend Certified PHP Engineer - A nova certificação do PHP">
 <meta name="twitter:creator" content="@edgarsandi">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PHP - Converter números para palavras">
-<meta property="og:description" content="Como converter números para palavras com o PHP usando NumberFormatter">
-<meta property="og:url" content="http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/">
+<meta property="og:title" content="Zend Certified PHP Engineer - A nova certificação do PHP">
+<meta property="og:description" content="Zend Certified PHP Engineer - A nova certificação do PHP">
+<meta property="og:url" content="http://edgarsandi.github.io/_i18n/br/a-nova-certificao-do-php/">
 <meta property="og:site_name" content="Edgar Sandi">
 
 
 
 
 
-<link rel="canonical" href="http://edgarsandi.github.io/_i18n/br/converte-numero-para-palavras/">
+<link rel="canonical" href="http://edgarsandi.github.io/_i18n/br/a-nova-certificao-do-php/">
 <link href="http://edgarsandi.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Edgar Sandi Feed">
 <link rel="author" href="https://plus.google.com/102946997383264307236?rel=author?rel=author">
 
@@ -172,7 +172,7 @@
 <div class="entry-header">
   
   <div class="entry-image">
-    <img src="http://edgarsandi.github.io/images/abstract-6.jpg" alt="PHP - Converter números para palavras">
+    <img src="http://edgarsandi.github.io/images/abstract-6.jpg" alt="Zend Certified PHP Engineer - A nova certificação do PHP">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -182,9 +182,9 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" rel="bookmark" title="PHP - Converter números para palavras">PHP - Converter números para palavras</a></h1>
+          <h1 class="entry-title"><a href="http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/" rel="bookmark" title="Zend Certified PHP Engineer - A nova certificação do PHP">Zend Certified PHP Engineer - A nova certificação do PHP</a></h1>
         
-        <!-- <h2>20/08/2012</h2> -->
+        <!-- <h2>22/10/2014</h2> -->
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
@@ -193,46 +193,83 @@
           <i class="fa fa-clock-o"></i>
           <i class="entry-reading-time-content">
             
-            Tempo de leitura ~1 minuto
+            Tempo de leitura ~3 minutos
           </i>
         </div><!-- /.entry-reading-time -->
       
-      <h2 id="numberformatter">NumberFormatter</h2>
-<p>Hoje vamos falar sobre a NumberFormatter uma classe que faz parte do Intl (Funções de Internacionalização) desde a versão 5.0 do PHP.</p>
+      <p><img src="https://www.zend.com/static-assets/img/zcedirectory/ZCPE-logo-XS.jpg" alt="" /></p>
 
-<p>Podemos usá-la para formatar números, moedas e percentuais de acordo com a localidade (L10n).</p>
+<h2 id="zend-certified-php-engineer---a-nova-certificao-do-php">Zend Certified PHP Engineer - A nova certificação do PHP</h2>
+<p>Recentemente fiz o que eu vou incorretamente chamar de atualização da ZCE</p>
 
-<p>Esta classe nos dá também a possibilidade de converter número para sua forma falada.</p>
+<p>Incorretamente pois embora esta certificação aborde o PHP 5.5 e a anterior o PHP 5.3 a Zend divulgou que para os já certificados na anterior não é mandatório a realização da prova pois ela ainda tem validade oficial do PHP 5.X</p>
 
-<h2 id="exemplo-de-uso">Exemplo de uso</h2>
-<ul>
-  <li>1 = um</li>
-  <li>17 = dezessete</li>
-  <li>1985 = mil novecentos e oitenta e cinco</li>
-</ul>
+<p>Bom, como eu tinha um voucher que estava quase perdido entre meus e-mails resolvi marcar e fazer a nova certificação e a seguir minhas observações</p>
 
-<h2 id="exemplo-de-cdigo">Exemplo de código</h2>
+<h3 id="formato-da-prova">Formato da prova</h3>
+<p>O formato é exatamente o mesmo, custa U$ 195 é a aplicada por um Centro Autorizado PearsonVue com um total de 90 minutos para responder as 70 questões</p>
 
-<div class="highlight"><pre><code class="php"><span class="lineno">1</span> <span class="cp">&lt;?php</span>
-<span class="lineno">2</span> 	<span class="nv">$numberFormatter</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">NumberFormatter</span><span class="p">(</span><span class="s1">&#39;pt_BR&#39;</span><span class="p">,</span> <span class="nx">NumberFormatter</span><span class="o">::</span><span class="na">SPELLOUT</span><span class="p">);</span>
-<span class="lineno">3</span> 	<span class="k">echo</span> <span class="nv">$numberFormatter</span><span class="o">-&gt;</span><span class="na">format</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-<span class="lineno">4</span> 	<span class="c1">// A saída será: um</span>
-<span class="lineno">5</span> 
-<span class="lineno">6</span> 	<span class="nv">$numberFormatter</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">NumberFormatter</span><span class="p">(</span><span class="s1">&#39;pt_BR&#39;</span><span class="p">,</span> <span class="nx">NumberFormatter</span><span class="o">::</span><span class="na">SPELLOUT</span><span class="p">);</span>
-<span class="lineno">7</span> 	<span class="k">echo</span> <span class="nv">$numberFormatter</span><span class="o">-&gt;</span><span class="na">format</span><span class="p">(</span><span class="mi">12345</span><span class="p">);</span>
-<span class="lineno">8</span> 	<span class="c1">// A saída será: doze mil e trezentos e quarenta e cinco</span>
-<span class="lineno">9</span> <span class="cp">?&gt;</span><span class="x"></span></code></pre></div>
+<table>
+  <tbody>
+    <tr>
+      <td>As questões variam entre multipla escolha (marque: apenas a correta</td>
+      <td> </td>
+      <td>apenas a incorreta</td>
+      <td> </td>
+      <td>as corretas</td>
+      <td> </td>
+      <td>as incorretas) e também dissertativas (saída do código, nome da função que transforma de “<em>xispita</em>” para “<em>atipsix</em>”) e por aí vai</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="resultado">Resultado</h3>
+<p>O resultado da prova também é o mesmo, ao final do tempo ou quando você desejar finalizar é onde temos os eternos 5 segundos que antecedem o temido <strong>Failed</strong> ou o tão desejado <strong>Congratulations</strong></p>
+
+<h3 id="finalizao">Finalização</h3>
+<p>Após a prova ter sido finalizada você receberá do Centro Autorizado uma folha impressa com o status da sua prova</p>
+
+<p>Caso tenha passado nesta folha terá também um aviso que o certificado será emitido em 15 a 20 dias para o seu endereço no cadastro do site da Zend e o aviso de que você pode fazer parte do grupo de ZCE do Linkedin onde só pode entrar depois de enviar sua ZendID e ser aceito pelo dono do grupo</p>
+
+<h3 id="benefcios">Benefícios</h3>
+<p>Seu perfil com o logo da certificação irá aparecer no Zend Certified Engineer Directory, ou o que eu ainda chamo de Yellow Pages, com seus dados e data da certificação</p>
+
+<p>Você estará autorizado à utilizar o logo de ZCE em perfis pessoais e profissionais, curriculo, sites, assinaturas, etc</p>
+
+<p>Nas outras certificações que eu fiz a do PHP 5.3 e do Zend Framework recebi também um adesivo com algo entre 15x15cm com o logo da certificação em questão, nesta eu não lembro de ter lido nada que mencionasse o adesivo, vou aguardar para a chegada do certificado para ter certeza</p>
+
+<p>Outra diferença da certificação anterior para esta é que quem passasse na certificação recebia a licença vitalícia do Zend Server e do Zend Studio, ambos para a versão corrente da época</p>
+
+<p>Por ter realizado a certificação em anos diferentes tenho as licenças do Zend Server 5.X (full edition), Zend Server 6.X (full edition), Zend Studio 8.X e Zend Studio 9.X, todas ainda válidas por serem vitalícias, mas obviamente defasadas</p>
+
+<p>Nesta certificação, você não ganha mais a licença do Zend Server, apenas a licença do Zend Studio 11.X vitalícia e com 12 meses de suporte</p>
+
+<h3 id="dicas">Dicas</h3>
+<p>Bom, como antes de iniciar a prova, você deve concordar com alguns termos, um deles é que você está terminantemente proibido de divulgar de qualquer forma o conteúdo da prova</p>
+
+<p>Então vou me limitar apenas a assuntos em geral</p>
+
+<p>Cada prova é diferente, mas consegui determinar um padrão, das 4 vezes que fiz uma certificação da Zend (3 delas foram do PHP e 1 do Zend Framework) mas vou falar sobre a do PHP</p>
+
+<p>Algo que reparei ser bem recorrente é quanto à todas as funções e teorias que envolvem o assunto <strong>stream</strong>, algumas perguntas envolvendo segurança e infra-estrutura e também perguntas com o uso de &amp; (referência) e códigos conceituais para testar seu conhecimento sólido no PHP</p>
+
+<h3 id="consideraes-finais">Considerações finais</h3>
+<p>Eu recomendo a certificação, mas não pelo status e sim pelo quanto você acaba aprendendo, já que acabamos estudando sobre funções, classes e etc direto das entranhas do PHP</p>
+
+<p>Considero dizer também que na prova não é abordado nada sobre extensões, frameworks, cms, etc. Apenas o bom e velho PHP (e tudo que é considerado nativo além da linguagem).</p>
+
+<p>Uma boa prova e boa sorte!</p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://edgarsandi.github.io/tags/#php" title="Pages tagged php" class="tag">php</a><a href="http://edgarsandi.github.io/tags/#converter número" title="Pages tagged converter número" class="tag">converter número</a><a href="http://edgarsandi.github.io/tags/#formatar" title="Pages tagged formatar" class="tag">formatar</a><a href="http://edgarsandi.github.io/tags/#conversão" title="Pages tagged conversão" class="tag">conversão</a></span>
-        <span><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" rel="bookmark" title="PHP - Converter números para palavras">PHP - Converter números para palavras</a> foi publicado em <span class="entry-date date published updated"><time datetime="2012-08-20T00:00:00-03:00">20/08/2012</time></span></span>
-        (revised: <span class="entry-date date modified"><time datetime="2012-08-21">21/08/2012</time></span>)
+        <span class="entry-tags"><a href="http://edgarsandi.github.io/tags/#php" title="Pages tagged php" class="tag">php</a><a href="http://edgarsandi.github.io/tags/#zce" title="Pages tagged zce" class="tag">zce</a><a href="http://edgarsandi.github.io/tags/#zcpe" title="Pages tagged zcpe" class="tag">zcpe</a><a href="http://edgarsandi.github.io/tags/#certificação" title="Pages tagged certificação" class="tag">certificação</a></span>
+        <span><a href="http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/" rel="bookmark" title="Zend Certified PHP Engineer - A nova certificação do PHP">Zend Certified PHP Engineer - A nova certificação do PHP</a> foi publicado em <span class="entry-date date published updated"><time datetime="2014-10-22T00:00:00-02:00">22/10/2014</time></span></span>
+        (revised: <span class="entry-date date modified"><time datetime="2014-10-22">22/10/2014</time></span>)
         <span class="author vcard"><span class="fn"><a href="http://edgarsandi.github.io/about/" title="About Edgar Sandi">Edgar Sandi</a></span></span>
         <div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
@@ -242,11 +279,11 @@
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://edgarsandi.github.io//" class="read-more-btn">Leia mais</a>
+          <a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" class="read-more-btn">Leia mais</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
-          <h3><a href="http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/" title="Zend Certified PHP Engineer - A nova certificação do PHP">Zend Certified PHP Engineer - A nova certificação do PHP</a></h3>
-          <p>Zend Certified PHP Engineer - A nova certificação do PHP <a href="http://edgarsandi.github.io///_i18n/br/a-nova-certificao-do-php/">Continue lendo</a></p>
+          <h3><a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/" title="PHP - Converter números para palavras">PHP - Converter números para palavras</a></h3>
+          <p>Como converter números para palavras com o PHP usando NumberFormatter <a href="http://edgarsandi.github.io///_i18n/br/converte-numero-para-palavras/">Continue lendo</a></p>
         </div><!-- /.read-more-content -->
       
       <div class="read-more-list">

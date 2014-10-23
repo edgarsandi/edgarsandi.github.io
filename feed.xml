@@ -4,13 +4,92 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://edgarsandi.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://edgarsandi.github.io" />
-<updated>2014-10-21T22:53:34-02:00</updated>
+<updated>2014-10-22T23:00:16-02:00</updated>
 <id>http://edgarsandi.github.io/</id>
 <author>
   <name>Edgar Sandi</name>
   <uri>http://edgarsandi.github.io/</uri>
   <email>edgar.r.sandi@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Zend Certified PHP Engineer - A nova certificação do PHP]]></title>
+ <link rel="alternate" type="text/html" href="http://edgarsandi.github.io/_i18n/br/a-nova-certificao-do-php/" />
+  <id>http://edgarsandi.github.io/_i18n/br/a-nova-certificao-do-php</id>
+  <updated>2014-10-22T00:00:00-00:00</updated>
+  <published>2014-10-22T00:00:00-02:00</published>
+  
+  <author>
+    <name>Edgar Sandi</name>
+    <uri>http://edgarsandi.github.io</uri>
+    <email>edgar.r.sandi@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;https://www.zend.com/static-assets/img/zcedirectory/ZCPE-logo-XS.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;zend-certified-php-engineer---a-nova-certificao-do-php&quot;&gt;Zend Certified PHP Engineer - A nova certificação do PHP&lt;/h2&gt;
+&lt;p&gt;Recentemente fiz o que eu vou incorretamente chamar de atualização da ZCE&lt;/p&gt;
+
+&lt;p&gt;Incorretamente pois embora esta certificação aborde o PHP 5.5 e a anterior o PHP 5.3 a Zend divulgou que para os já certificados na anterior não é mandatório a realização da prova pois ela ainda tem validade oficial do PHP 5.X&lt;/p&gt;
+
+&lt;p&gt;Bom, como eu tinha um voucher que estava quase perdido entre meus e-mails resolvi marcar e fazer a nova certificação e a seguir minhas observações&lt;/p&gt;
+
+&lt;h3 id=&quot;formato-da-prova&quot;&gt;Formato da prova&lt;/h3&gt;
+&lt;p&gt;O formato é exatamente o mesmo, custa U$ 195 é a aplicada por um Centro Autorizado PearsonVue com um total de 90 minutos para responder as 70 questões&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;As questões variam entre multipla escolha (marque: apenas a correta&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;apenas a incorreta&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;as corretas&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;as incorretas) e também dissertativas (saída do código, nome da função que transforma de “&lt;em&gt;xispita&lt;/em&gt;” para “&lt;em&gt;atipsix&lt;/em&gt;”) e por aí vai&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;resultado&quot;&gt;Resultado&lt;/h3&gt;
+&lt;p&gt;O resultado da prova também é o mesmo, ao final do tempo ou quando você desejar finalizar é onde temos os eternos 5 segundos que antecedem o temido &lt;strong&gt;Failed&lt;/strong&gt; ou o tão desejado &lt;strong&gt;Congratulations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;finalizao&quot;&gt;Finalização&lt;/h3&gt;
+&lt;p&gt;Após a prova ter sido finalizada você receberá do Centro Autorizado uma folha impressa com o status da sua prova&lt;/p&gt;
+
+&lt;p&gt;Caso tenha passado nesta folha terá também um aviso que o certificado será emitido em 15 a 20 dias para o seu endereço no cadastro do site da Zend e o aviso de que você pode fazer parte do grupo de ZCE do Linkedin onde só pode entrar depois de enviar sua ZendID e ser aceito pelo dono do grupo&lt;/p&gt;
+
+&lt;h3 id=&quot;benefcios&quot;&gt;Benefícios&lt;/h3&gt;
+&lt;p&gt;Seu perfil com o logo da certificação irá aparecer no Zend Certified Engineer Directory, ou o que eu ainda chamo de Yellow Pages, com seus dados e data da certificação&lt;/p&gt;
+
+&lt;p&gt;Você estará autorizado à utilizar o logo de ZCE em perfis pessoais e profissionais, curriculo, sites, assinaturas, etc&lt;/p&gt;
+
+&lt;p&gt;Nas outras certificações que eu fiz a do PHP 5.3 e do Zend Framework recebi também um adesivo com algo entre 15x15cm com o logo da certificação em questão, nesta eu não lembro de ter lido nada que mencionasse o adesivo, vou aguardar para a chegada do certificado para ter certeza&lt;/p&gt;
+
+&lt;p&gt;Outra diferença da certificação anterior para esta é que quem passasse na certificação recebia a licença vitalícia do Zend Server e do Zend Studio, ambos para a versão corrente da época&lt;/p&gt;
+
+&lt;p&gt;Por ter realizado a certificação em anos diferentes tenho as licenças do Zend Server 5.X (full edition), Zend Server 6.X (full edition), Zend Studio 8.X e Zend Studio 9.X, todas ainda válidas por serem vitalícias, mas obviamente defasadas&lt;/p&gt;
+
+&lt;p&gt;Nesta certificação, você não ganha mais a licença do Zend Server, apenas a licença do Zend Studio 11.X vitalícia e com 12 meses de suporte&lt;/p&gt;
+
+&lt;h3 id=&quot;dicas&quot;&gt;Dicas&lt;/h3&gt;
+&lt;p&gt;Bom, como antes de iniciar a prova, você deve concordar com alguns termos, um deles é que você está terminantemente proibido de divulgar de qualquer forma o conteúdo da prova&lt;/p&gt;
+
+&lt;p&gt;Então vou me limitar apenas a assuntos em geral&lt;/p&gt;
+
+&lt;p&gt;Cada prova é diferente, mas consegui determinar um padrão, das 4 vezes que fiz uma certificação da Zend (3 delas foram do PHP e 1 do Zend Framework) mas vou falar sobre a do PHP&lt;/p&gt;
+
+&lt;p&gt;Algo que reparei ser bem recorrente é quanto à todas as funções e teorias que envolvem o assunto &lt;strong&gt;stream&lt;/strong&gt;, algumas perguntas envolvendo segurança e infra-estrutura e também perguntas com o uso de &amp;amp; (referência) e códigos conceituais para testar seu conhecimento sólido no PHP&lt;/p&gt;
+
+&lt;h3 id=&quot;consideraes-finais&quot;&gt;Considerações finais&lt;/h3&gt;
+&lt;p&gt;Eu recomendo a certificação, mas não pelo status e sim pelo quanto você acaba aprendendo, já que acabamos estudando sobre funções, classes e etc direto das entranhas do PHP&lt;/p&gt;
+
+&lt;p&gt;Considero dizer também que na prova não é abordado nada sobre extensões, frameworks, cms, etc. Apenas o bom e velho PHP (e tudo que é considerado nativo além da linguagem).&lt;/p&gt;
+
+&lt;p&gt;Uma boa prova e boa sorte!&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://edgarsandi.github.io/_i18n/br/a-nova-certificao-do-php/&quot;&gt;Zend Certified PHP Engineer - A nova certificação do PHP&lt;/a&gt; was originally published by Edgar Sandi at &lt;a href=&quot;http://edgarsandi.github.io&quot;&gt;Edgar Sandi&lt;/a&gt; on October 22, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
