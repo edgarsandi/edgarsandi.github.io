@@ -24,7 +24,7 @@ Bom, como eu tinha um voucher que estava quase perdido entre meus e-mails resolv
 ### Formato da prova
 O formato é exatamente o mesmo, custa U$ 195 é a aplicada por um Centro Autorizado PearsonVue com um total de 90 minutos para responder as 70 questões
 
-As questões variam entre multipla escolha (marque: apenas a correta || apenas a incorreta || as corretas || as incorretas) e também dissertativas (saída do código, nome da função que transforma de "*xispita*" para "*atipsix*") e por aí vai
+As questões variam entre multipla escolha (marque: apenas a correta **OU** apenas a incorreta **OU** as corretas **OU** as incorretas) e também dissertativas (saída do código, nome da função que transforma de "*xispita*" para "*atipsix*") e por aí vai
 
 ### Resultado
 O resultado da prova também é o mesmo, ao final do tempo ou quando você desejar finalizar é onde temos os eternos 5 segundos que antecedem o temido **Failed** ou o tão desejado **Congratulations**
