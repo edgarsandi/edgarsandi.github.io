@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://edgarsandi.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://edgarsandi.github.io" />
-<updated>2014-10-23T06:02:13-02:00</updated>
+<updated>2014-10-27T21:34:02-02:00</updated>
 <id>http://edgarsandi.github.io/</id>
 <author>
   <name>Edgar Sandi</name>
@@ -37,19 +37,7 @@
 &lt;h3 id=&quot;formato-da-prova&quot;&gt;Formato da prova&lt;/h3&gt;
 &lt;p&gt;O formato é exatamente o mesmo, custa U$ 195 é a aplicada por um Centro Autorizado PearsonVue com um total de 90 minutos para responder as 70 questões&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;As questões variam entre multipla escolha (marque: apenas a correta&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;apenas a incorreta&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;as corretas&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;as incorretas) e também dissertativas (saída do código, nome da função que transforma de “&lt;em&gt;xispita&lt;/em&gt;” para “&lt;em&gt;atipsix&lt;/em&gt;”) e por aí vai&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;As questões variam entre multipla escolha (marque: apenas a correta &lt;strong&gt;OU&lt;/strong&gt; apenas a incorreta &lt;strong&gt;OU&lt;/strong&gt; as corretas &lt;strong&gt;OU&lt;/strong&gt; as incorretas) e também dissertativas (saída do código, nome da função que transforma de “&lt;em&gt;xispita&lt;/em&gt;” para “&lt;em&gt;atipsix&lt;/em&gt;”) e por aí vai&lt;/p&gt;
 
 &lt;h3 id=&quot;resultado&quot;&gt;Resultado&lt;/h3&gt;
 &lt;p&gt;O resultado da prova também é o mesmo, ao final do tempo ou quando você desejar finalizar é onde temos os eternos 5 segundos que antecedem o temido &lt;strong&gt;Failed&lt;/strong&gt; ou o tão desejado &lt;strong&gt;Congratulations&lt;/strong&gt;&lt;/p&gt;
