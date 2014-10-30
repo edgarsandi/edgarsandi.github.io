@@ -1,1 +1,14 @@
+{% if site.owner.zendid %}
+  <p>
+    <a href="http://www.zend.com/en/yellow-pages/{{ site.owner.zendid }}" target="_blank" class="certifications">
+      <img src="https://www.zend.com/static-assets/img/zcedirectory/ZCPE-logo-XS.jpg" />
+      <img src="https://www.zend.com/static-assets/img/zcedirectory/ZCE-PHP5-3-logo-XS.jpg" />
+      <img src="https://www.zend.com/static-assets/img/zcedirectory/ZFCE-logo-XS.jpg" />
+    </a>
+    <a href="http://pt.stackoverflow.com/users/17328/edgar-r-sandi">
+        <img src="http://pt.stackoverflow.com/users/flair/17328.png" width="208" height="58" alt="perfil de Edgar R. Sandi em Stack Overflow em Portugu&#234;s, &#233; um site de perguntas e respostas para programadores profissionais e entusiastas" title="perfil de Edgar R. Sandi em Stack Overflow em Portugu&#234;s, &#233; um site de perguntas e respostas para programadores profissionais e entusiastas">
+    </a>
+  </p>
+{% endif %}
+<br />
 <span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
